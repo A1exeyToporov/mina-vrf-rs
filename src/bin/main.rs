@@ -47,7 +47,7 @@ struct VRFOpts {
     #[clap(
         short = "e",
         long = "endpoint",
-        default_value = DEFAULT_LOCAL_ENDPOINT
+        default_value = MINA_EXPLORER_ENDPOINT
     )]
     endpoint: String,
     /// User public key string
